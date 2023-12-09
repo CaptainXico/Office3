@@ -1,0 +1,8 @@
+Model Information:
+* title:	Ventana
+* source:	https://sketchfab.com/3d-models/ventana-9df5104b6245461fb7a58eb983c628af
+* author:	robinsoncode1010 (https://sketchfab.com/robinsoncode1010)
+
+Model License:
+* license type:	SKETCHFAB Standard (https://sketchfab.com/licenses)
+* requirements:	Under basic restrictions, use worldwide, on all types of media, commercially or not, and in all types of derivative works
