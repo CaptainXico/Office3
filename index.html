@@ -9,10 +9,16 @@
   <body>
     <a-scene>
       <!-- Create walls -->
-      <a-box position="-5 2.5 0" width="1" height="5" depth="10" color="gray"></a-box>
-      <a-box position="5 2.5 0" width="1" height="5" depth="10" color="gray"></a-box>
-      <a-box position="0 2.5 -5" width="12" height="5" depth="1" color="gray"></a-box>
-      <a-box position="0 2.5 5" width="12" height="5" depth="1" color="gray"></a-box>
+      <a-box position="-5 2.5 0" width="1" height="5" depth="10" src="text/wall.jpg"></a-box>
+      <a-box position="5 2.5 0" width="1" height="5" depth="10" src="text/wall.jpg"></a-box>
+      <a-box position="0 2.5 -5" width="12" height="5" depth="1" src="text/wall.jpg"></a-box>
+      <a-box position="0 2.5 5" width="12" height="5" depth="1" src="text/wall.jpg"></a-box>
+      
+      <!-- Create floor -->
+      <a-plane position="-2 0 -2" rotation="-90 0 0" height="5" width="5" src="text/floor.jpg" ></a-plane>
+      <a-plane position="-2 0 3" rotation="-90 0 0" height="5" width="5" src="text/floor.jpg" ></a-plane><a-plane position="-2 0 -2" rotation="-90 0 0" height="5" width="5" src="https://cdn.glitch.global/02fbc015-6ddd-4c90-9a7d-84e03e08e2c3/Albedo_2K__vdfjahpv.jpg?v=1702128753590" ></a-plane>
+      <a-plane position="3 0 3" rotation="-90 0 0" height="5" width="5" src="text/floor.jpg" ></a-plane>
+      <a-plane position="3 0 -2" rotation="-90 0 0" height="5" width="5" src="text/floor.jpg" ></a-plane>
 
       <!-- Create desks -->
       <a-box table position="-2 1 2" width="1" height="1" depth="1" color="brown"></a-box>
