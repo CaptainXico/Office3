@@ -4,12 +4,14 @@
     <meta charset="utf-8">
     <title>3D Office</title>
     <script src="https://aframe.io/releases/1.5.0/aframe.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/n5ro/aframe-physics-system@v4.0.0/dist/aframe-physics-system.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/donmccurdy/aframe-extras@v6.1.1/dist/aframe-extras.misc.min.js"></script>
        
   </head>
   <body>
-    <a-scene>
+    <a-scene id="scene" physics="debug:true">
       <!-- Create walls -->
-      <a-box position="-5 2.5 0" width="1" height="5" depth="10" src="text/wall.jpg"></a-box>
+      <a-box static-body position="-5 2.5 0" width="1" height="5" depth="10" src="text/wall.jpg"></a-box>
       <a-box position="5 2.5 0" width="1" height="5" depth="10" src="text/wall.jpg"></a-box>
       <a-box position="0 2.5 -5" width="12" height="5" depth="1" src="text/wall.jpg"></a-box>
       <a-box position="0 2.5 5" width="12" height="5" depth="1" src="text/wall.jpg"></a-box>
